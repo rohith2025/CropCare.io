@@ -62,7 +62,7 @@ export const Contactpage = () => {
       message: message,
     };
 
-    emailjs.send('service_abv72wl', 'template_carkpc9', templateParams, 'lNFIiMc9ZSZK3eI9C')
+    emailjs.send('', '', templateParams, '')
       .then((response) => {
         console.log('Email sent successfully!', response.status, response.text);
         
